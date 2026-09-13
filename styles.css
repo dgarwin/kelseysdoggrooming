@@ -105,6 +105,18 @@ a { color: var(--brand-dark); }
 }
 .site-header nav a:hover { color: var(--brand); }
 
+.site-header nav a.nav-book {
+  color: var(--brand-dark);
+  font-weight: 600;
+  border: 1.5px solid var(--brand);
+  border-radius: 999px;
+  padding: 4px 14px;
+}
+.site-header nav a.nav-book:hover {
+  background: var(--brand);
+  color: #fff;
+}
+
 /* ---------- hero ---------- */
 
 .hero {
@@ -231,7 +243,13 @@ a { color: var(--brand-dark); }
 
 .contact { text-align: center; }
 .contact .section-sub { margin-inline: auto; }
-.contact-line { margin: 26px 0 14px; word-break: break-word; }
+.contact-line { margin: 26px 0 10px; word-break: break-word; }
+.contact-alt {
+  color: var(--ink-soft);
+  font-size: .97rem;
+  margin-bottom: 14px;
+  word-break: break-word;
+}
 .muted { color: var(--ink-soft); font-size: .92rem; }
 
 /* ---------- footer ---------- */
