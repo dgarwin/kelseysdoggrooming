@@ -8,7 +8,7 @@ Maryland, and Northern Virginia). Contact: Kelsey Buckley —
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | The entire site — hero, services, about, contact |
+| `index.html` | The entire site — one-screen offer panel plus an About section |
 | `styles.css` | All styling (no build step, no dependencies) |
 | `404.html` | Not-found page |
 | `assets/paw.svg` | Logo / favicon |
@@ -16,9 +16,16 @@ Maryland, and Northern Virginia). Contact: Kelsey Buckley —
 
 ## Editing
 
-Everything is plain HTML and CSS, so edits go straight into `index.html`. The
-service descriptions are starting copy — replace them with Kelsey's real
-service list, pricing, and hours.
+Everything is plain HTML and CSS, so edits go straight into `index.html`.
+
+The first screen is deliberately sized to hold every essential fact without
+scrolling: the free-training-groom offer, what a groom includes, Kelsey's
+background, and both ways to book. Keep it that way — anything added there
+pushes the call to action below the fold.
+
+Current offer, as reflected in the copy: **full grooms only, free, while Kelsey
+trains.** When that changes (paid services, more service types, set hours),
+`index.html` is the only file that needs editing.
 
 ## Local preview
 
