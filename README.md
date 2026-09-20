@@ -1,7 +1,7 @@
 # Kelsey's Dog Grooming
 
 Static marketing site for Kelsey's Dog Grooming, serving the DMV (Washington DC,
-Maryland, and Northern Virginia). Contact: Kelsey Buckley —
+Maryland, and Northern Virginia). Contact: Kelsey —
 <kelsey@kelseysdoggrooming.com>
 
 ## Structure
